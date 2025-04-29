@@ -39327,7 +39327,7 @@ async function run() {
 
         // Call the OpenAI ChatGPT API to analyze the code
         response = await axios.post('https://api.openai.com/v1/chat/completions', {
-            "model": "gpt-4.1-nano",
+            "model": "gpt-4.1-mini",
             "messages": messages
         }, configWithProxy({
             headers: {
